@@ -1,0 +1,27 @@
+{
+  "name": "thai-multiplication-table",
+  "version": "2.0.0",
+  "description": "เป็นแพ็กเกจสำหรับช่วยในการแสดงตารางสูตรคูณภาษาไทยรูปแบบเลขจำนวนเต็มบวก",
+  "homepage": "https://natchalatte.github.io/say-thanks",
+  "repository": {
+    "url": "https://github.com/NatchaLatte/thai-multiplication-table"
+  },
+  "keywords": [
+    "thai-multiplication-table",
+    "multiplication-table",
+    "tmt",
+    "mt"
+  ],
+  "author": "natcha-latte",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
