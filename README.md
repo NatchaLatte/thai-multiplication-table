@@ -3,6 +3,7 @@ Thai multiplication table เป็นแพ็กเกจสำหรับช
 ## _ความสามารถของแพ็กเกจ_
 - ส่งผลลัพธ์การคูณในรูปแบบ Array
 - แปลงเลขจำนวนเต็มบวกจากตัวเลขอารบิกไปเป็นตัวเลขไทย
+- สามารถใช้งานร่วมกับทั้ง TypeScript และ JavaScript ได้ รวมถึงรองรับรูปแบบการเขียนแบบ CommonJS และ ES Module
 ## วิธีติดตั้ง
 ```sh
 npm i thai-multiplication-table
@@ -15,7 +16,7 @@ bun add thai-multiplication-table
 ```
 #### ฟังก์ชันส่งผลลัพธ์การคูณในรูปแบบ Array
 ```sh
-getTable(multiplicand: number, multiplierStart: number = 1, multiplierEnd: number = 12): string[];
+getTable(multiplicand: number, multiplierStart: number = 1, multiplierEnd: number = 12): string[]
 ```
 #### ฟังก์ชันแปลงเลขจำนวนเต็มบวกจากตัวเลขอารบิกไปเป็นตัวเลขไทย
 ```sh
